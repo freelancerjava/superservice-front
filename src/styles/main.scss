@@ -1,0 +1,16 @@
+.color-accent {
+    border-color: #f58f0aad;
+    
+    *,
+    &::before,
+    &::after {
+        border-color: #f58f0a;
+    }
+}
+
+.hover-color-accent{
+    border: 1px solid transparent
+}
+.hover-color-accent:hover{
+    border: 1px solid #f58f0aad;
+}
