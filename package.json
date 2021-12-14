@@ -55,7 +55,7 @@
   ],
   "license": "0BSD",
   "scripts": {
-    "build": "cross-env API_URL=http://response.uz:4456 gatsby build",
+    "build": "gatsby build",
     "develop": "gatsby develop --open --port 8012 --host 0.0.0.0",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "lint": "eslint .",
